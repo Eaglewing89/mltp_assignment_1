@@ -1,0 +1,27 @@
+create a part_1_cd.py and do this: 
+
+use pytorch with cuda to set up a simple mlp with 2 layers, 2 output classes. 
+
+let's say layer one is 5 neurons using leaky relu activation, second will of 
+course be 2 neurons using softmax or something else appropriate and then loss 
+function will be cross entropy or whatever. 
+use adam optimizer. 
+use an appropriate regularization, why not. 
+early stopping is cool too. 
+and then add something else cool. surprise me. 
+
+then you will create a dataset with 2 classes that is isn't quite linearly 
+seperable (to get some excitement in our training) in 3 dimensions (right 
+that means that the first layer would need neurons with 4 weights when we 
+include the bias). obviously you will match the first set to class 1 and 
+the other set to class 2. 
+
+then you will train the model with more epochs than we need to see the early 
+stopping in action and some learning rate of your choice. 
+
+split the dataset before training so we can get some test accuracy that you 
+will print out. 
+
+you know what use some graph library too so we can get a graph of the loss 
+during training. check if the venv pip list has got something for displaying 
+that graph. otherwise use pip install. 
