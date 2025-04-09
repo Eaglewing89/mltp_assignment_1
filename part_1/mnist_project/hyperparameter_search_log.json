@@ -1,0 +1,644 @@
+[
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                512,
+                256
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.5,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.97,
+        "max_val_accuracy": 97.85,
+        "training_time": 81.56152510643005,
+        "timestamp": "2025-04-09 01:38:17"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256,
+                256,
+                256
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.2,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.99,
+        "max_val_accuracy": 97.8,
+        "training_time": 75.34264254570007,
+        "timestamp": "2025-04-09 01:39:32"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                512,
+                256
+            ],
+            "batch_size": 32,
+            "learning_rate": 0.0001,
+            "dropout_rate": 0.3,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 93.16,
+        "max_val_accuracy": 92.39166666666667,
+        "training_time": 126.03255462646484,
+        "timestamp": "2025-04-09 01:41:38"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                1024,
+                512,
+                256
+            ],
+            "batch_size": 32,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.2,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 97.85,
+        "max_val_accuracy": 97.675,
+        "training_time": 104.65687990188599,
+        "timestamp": "2025-04-09 01:43:23"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256,
+                256,
+                256
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.0005,
+            "dropout_rate": 0.2,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.69,
+        "max_val_accuracy": 97.825,
+        "training_time": 61.30974507331848,
+        "timestamp": "2025-04-09 01:44:25"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                512,
+                256,
+                128
+            ],
+            "batch_size": 64,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.2,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 97.18,
+        "max_val_accuracy": 96.8,
+        "training_time": 122.63122963905334,
+        "timestamp": "2025-04-09 01:46:27"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256,
+                256,
+                256
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.0005,
+            "dropout_rate": 0.3,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 98.04,
+        "max_val_accuracy": 97.94166666666666,
+        "training_time": 73.29732608795166,
+        "timestamp": "2025-04-09 01:47:41"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                1024,
+                512,
+                256
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.2,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 95.86,
+        "max_val_accuracy": 95.46666666666667,
+        "training_time": 102.39702868461609,
+        "timestamp": "2025-04-09 01:49:23"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                128,
+                64
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.3,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.73,
+        "max_val_accuracy": 97.65,
+        "training_time": 84.2227873802185,
+        "timestamp": "2025-04-09 01:50:48"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256,
+                256,
+                256
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.3,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 95.46,
+        "max_val_accuracy": 94.775,
+        "training_time": 85.89135122299194,
+        "timestamp": "2025-04-09 01:52:14"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                512,
+                256,
+                128
+            ],
+            "batch_size": 32,
+            "learning_rate": 0.0005,
+            "dropout_rate": 0.5,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.98,
+        "max_val_accuracy": 97.89166666666667,
+        "training_time": 126.53414750099182,
+        "timestamp": "2025-04-09 13:21:58"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                128
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.3,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 94.89,
+        "max_val_accuracy": 94.575,
+        "training_time": 81.70137619972229,
+        "timestamp": "2025-04-09 13:23:20"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.2,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.87,
+        "max_val_accuracy": 97.78333333333333,
+        "training_time": 63.38962936401367,
+        "timestamp": "2025-04-09 13:24:23"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                128,
+                64
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.0005,
+            "dropout_rate": 0.2,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 93.1,
+        "max_val_accuracy": 92.225,
+        "training_time": 157.86593055725098,
+        "timestamp": "2025-04-09 13:27:01"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.0001,
+            "dropout_rate": 0.2,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.16,
+        "max_val_accuracy": 96.55,
+        "training_time": 210.72337555885315,
+        "timestamp": "2025-04-09 13:30:32"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256,
+                128
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.0005,
+            "dropout_rate": 0.3,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 93.59,
+        "max_val_accuracy": 92.66666666666667,
+        "training_time": 212.26676487922668,
+        "timestamp": "2025-04-09 13:34:05"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256
+            ],
+            "batch_size": 32,
+            "learning_rate": 0.0005,
+            "dropout_rate": 0.2,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 96.81,
+        "max_val_accuracy": 96.225,
+        "training_time": 275.68100357055664,
+        "timestamp": "2025-04-09 13:38:41"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                512,
+                256,
+                128
+            ],
+            "batch_size": 32,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.3,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.8,
+        "max_val_accuracy": 97.68333333333334,
+        "training_time": 245.60528874397278,
+        "timestamp": "2025-04-09 13:42:47"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                512
+            ],
+            "batch_size": 64,
+            "learning_rate": 0.0005,
+            "dropout_rate": 0.2,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 95.61,
+        "max_val_accuracy": 95.03333333333333,
+        "training_time": 248.61339831352234,
+        "timestamp": "2025-04-09 13:46:56"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                128,
+                64
+            ],
+            "batch_size": 64,
+            "learning_rate": 0.0001,
+            "dropout_rate": 0.2,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.13,
+        "max_val_accuracy": 96.64166666666667,
+        "training_time": 247.70042061805725,
+        "timestamp": "2025-04-09 13:51:04"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256,
+                128
+            ],
+            "batch_size": 32,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.3,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.95,
+        "max_val_accuracy": 97.8,
+        "training_time": 297.30513215065,
+        "timestamp": "2025-04-09 19:18:14"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                512,
+                256,
+                128
+            ],
+            "batch_size": 32,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.2,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 97.77,
+        "max_val_accuracy": 97.54166666666667,
+        "training_time": 325.7587642669678,
+        "timestamp": "2025-04-09 19:23:40"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                128
+            ],
+            "batch_size": 32,
+            "learning_rate": 0.0005,
+            "dropout_rate": 0.2,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 98.06,
+        "max_val_accuracy": 97.85833333333333,
+        "training_time": 292.37855315208435,
+        "timestamp": "2025-04-09 19:28:33"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                128,
+                64
+            ],
+            "batch_size": 64,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.3,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 96.43,
+        "max_val_accuracy": 96.00833333333334,
+        "training_time": 244.58048152923584,
+        "timestamp": "2025-04-09 19:32:38"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.0005,
+            "dropout_rate": 0.5,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.95,
+        "max_val_accuracy": 97.775,
+        "training_time": 229.81758069992065,
+        "timestamp": "2025-04-09 19:36:28"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                512,
+                256,
+                128
+            ],
+            "batch_size": 32,
+            "learning_rate": 0.0005,
+            "dropout_rate": 0.3,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.96,
+        "max_val_accuracy": 98.00833333333334,
+        "training_time": 300.85274744033813,
+        "timestamp": "2025-04-09 19:41:29"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                512,
+                256
+            ],
+            "batch_size": 64,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.3,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.94,
+        "max_val_accuracy": 97.96666666666667,
+        "training_time": 236.22009992599487,
+        "timestamp": "2025-04-09 19:45:26"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                1024,
+                512,
+                256
+            ],
+            "batch_size": 64,
+            "learning_rate": 0.0005,
+            "dropout_rate": 0.2,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 98.26,
+        "max_val_accuracy": 98.14166666666667,
+        "training_time": 248.895658493042,
+        "timestamp": "2025-04-09 19:49:35"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256
+            ],
+            "batch_size": 32,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.2,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.8,
+        "max_val_accuracy": 97.63333333333334,
+        "training_time": 188.73495054244995,
+        "timestamp": "2025-04-09 19:52:44"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                128
+            ],
+            "batch_size": 32,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.5,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 97.04,
+        "max_val_accuracy": 96.53333333333333,
+        "training_time": 239.40809154510498,
+        "timestamp": "2025-04-09 19:56:44"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                128
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.0001,
+            "dropout_rate": 0.5,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 89.67,
+        "max_val_accuracy": 88.66666666666667,
+        "training_time": 217.31237483024597,
+        "timestamp": "2025-04-09 20:05:37"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                128
+            ],
+            "batch_size": 32,
+            "learning_rate": 0.0001,
+            "dropout_rate": 0.5,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.01,
+        "max_val_accuracy": 96.48333333333333,
+        "training_time": 298.7816426753998,
+        "timestamp": "2025-04-09 20:10:36"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256,
+                256,
+                256
+            ],
+            "batch_size": 32,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.5,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 96.99,
+        "max_val_accuracy": 97.075,
+        "training_time": 256.7325758934021,
+        "timestamp": "2025-04-09 20:14:52"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                1024,
+                512,
+                256
+            ],
+            "batch_size": 64,
+            "learning_rate": 0.0005,
+            "dropout_rate": 0.5,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 98.14,
+        "max_val_accuracy": 98.14166666666667,
+        "training_time": 192.780686378479,
+        "timestamp": "2025-04-09 20:18:06"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256,
+                128
+            ],
+            "batch_size": 64,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.3,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 98.1,
+        "max_val_accuracy": 97.85,
+        "training_time": 129.49704551696777,
+        "timestamp": "2025-04-09 20:20:15"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256
+            ],
+            "batch_size": 64,
+            "learning_rate": 0.0001,
+            "dropout_rate": 0.2,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.6,
+        "max_val_accuracy": 97.35,
+        "training_time": 196.82520270347595,
+        "timestamp": "2025-04-09 20:23:32"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                128,
+                64
+            ],
+            "batch_size": 64,
+            "learning_rate": 0.0005,
+            "dropout_rate": 0.3,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 97.65,
+        "max_val_accuracy": 97.56666666666666,
+        "training_time": 248.28811383247375,
+        "timestamp": "2025-04-09 20:27:41"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                512,
+                256,
+                128
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.001,
+            "dropout_rate": 0.2,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 98.09,
+        "max_val_accuracy": 98.13333333333334,
+        "training_time": 196.78283786773682,
+        "timestamp": "2025-04-09 20:30:58"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                128,
+                64
+            ],
+            "batch_size": 64,
+            "learning_rate": 0.0001,
+            "dropout_rate": 0.3,
+            "optimizer": "Adam"
+        },
+        "test_accuracy": 96.81,
+        "max_val_accuracy": 96.39166666666667,
+        "training_time": 253.18426370620728,
+        "timestamp": "2025-04-09 20:35:12"
+    },
+    {
+        "hyperparameters": {
+            "hidden_sizes": [
+                256
+            ],
+            "batch_size": 128,
+            "learning_rate": 0.0005,
+            "dropout_rate": 0.5,
+            "optimizer": "SGD"
+        },
+        "test_accuracy": 93.72,
+        "max_val_accuracy": 93.1,
+        "training_time": 134.08377766609192,
+        "timestamp": "2025-04-09 20:37:26"
+    }
+]

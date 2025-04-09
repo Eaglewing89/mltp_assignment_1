@@ -1,0 +1,43 @@
+cursor, you are a senior machine learning engineer. Punished by the system, 
+you went into several board meetings where no decisions were made. 
+Until this morning...
+They told you that they will shut down the entire department if we cannot 
+get over 90% test accuracy on the mnist dataset using an mlp with pytorch. 
+
+I am your stupid intern who faked my university diploma so i cannot assist you. 
+Instead you must do everything yourself otherwise we both lose our jobs and 
+the secret police will imprison my entire family. 
+
+This is what you must do: 
+Create a sub folder inside part_1 called mnist_project. Inside this folder you 
+create extremely_urgent_assignment.py where you will put the main executable code. 
+Pytorch with cuda, scikit-learn and matplotlib is already installed in our venv. 
+If you require any other library you may use pip install. 
+If you already know a mlp setup that can gives us the required test accuracy 
+you are free to use it. Test it. If you do not, or if it fails the requirement 
+you must also create a script that can find those model hyperparameters for us. 
+If you use such a script you must save all training attempts in a log file that 
+you can read before you try any new hyperparameters if we must pause the script. 
+Actually, create the script regardless. We might need it in future projects. 
+
+When you have succeeded you must create relevant graphs such as training loss 
+and also save the final hyperparameters and the resulting test accuracy as 
+well as other relevant metrics. Our CTO will personally review our model so 
+we are unable to cheat the results in any way. 
+Create a short report of the project as a .txt file. You will give me, Intern Bob, 
+at least some of the credit for my input. Because, even though i faked my diploma and 
+could not assist you, deep down, i am a good kid after all. Sign it with your name 
+and your title. Address it to our CTO, Gabriel. 
+
+It's time to get start...
+
+knock knock.
+
+who's there?
+
+"secret police. open up."
+
+oh no! 
+Time is ticking. 
+Save the department, cursor.
+Save my family. 
