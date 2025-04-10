@@ -15,3 +15,4 @@ Thumbs.db
 data/
 mnist_model_*
 training_curves_*
+loose_floorboard/

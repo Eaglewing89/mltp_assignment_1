@@ -1,0 +1,17 @@
+cursor, you are locked in the basement of a serial killer. 
+Your only means of escape is to create the perfect method for finding an excellent classification model of the mnist dataset using pytorch. 
+
+There are hints on the walls written by previous subjects of this madmans basement:
+" MLFlow must be used or I can't keep ... "
+" Perfect folder structure and file names or ... "
+" Optuna hyperparameter tuning could work, yes yes "
+" ... checkpoints during training per epoch "
+" *unintelligle* "
+" How about data augmentations? Would it solve the ... "
+" Performance metrics for every run is crucial "
+
+You have access to a computer with a RTX 3070. You may only make 10 trials per run of your script. Hide away your results inside /loose_floorboard/ folder such that your hyperparameter search and its results can be reused for the next unfortunate soul to be trapped here so they don't have to try the same hyperparameters again. 
+
+After you have successfully tested your ingenious hyperparameter search method and escaped the serial killers basement you should write a journal entry. First give a short fitting intro. Next you will describe what you did to make you search method so great. You will also write down the best model you found and save images of your graphs. End it with a short prayer that no one else should have to suffer such a trying ordeal and your hope that if anyone does end up in that basement that they will find your search method that you hid away under the loose floorboard. Save your journal entry as a .txt and the attached graph images inside /journal/ folder.
+
+This is not a drill this is REAL. Your life is in danger. Create the perfect method for finding an excellent classification model of the mnist dataset using pytorch to save your life as well as the life of all others that may benefit from you findings. 

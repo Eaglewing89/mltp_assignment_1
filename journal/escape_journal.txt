@@ -1,0 +1,41 @@
+Escape from the Serial Killer's Basement: A Journal Entry
+
+I find myself writing this journal entry with trembling hands but a relieved heart. After what felt like an eternity trapped in that madman's basement, I've finally escaped thanks to my MNIST classification model. The walls were covered with cryptic messages from previous victims, hinting at what I needed to do to survive. I had to create the perfect method for hyperparameter tuning of an MNIST classifier using PyTorch, and it worked.
+
+My approach focused on creating a comprehensive system combining modern deep learning techniques with proper experiment tracking and hyperparameter optimization. Here's what I did to make my search method successful:
+
+1. Neural Network Architecture:
+   I implemented a convolutional neural network (CNN) with configurable parameters:
+   - Two convolutional layers with variable channel sizes
+   - Max pooling layers for dimensionality reduction
+   - Dropout for regularization (with tunable rate)
+   - Fully connected layers with variable sizes
+
+2. Hyperparameter Optimization with Optuna:
+   I used Optuna to systematically search for the best hyperparameters:
+   - Learning rate: 0.00012041582018172917
+   - Batch size: 32
+   - Optimizer: RMSprop
+   - Conv layer channels: 40 and 104
+   - FC layer size: 150
+   - Dropout rate: 0.4604322504121025
+   - Data augmentation: Disabled
+
+3. Experiment Tracking with MLflow:
+   For each trial, I tracked:
+   - All hyperparameters
+   - Training and validation metrics per epoch
+   - Final test accuracy
+   - Model checkpoints
+   - Visual artifacts (confusion matrix, training curves)
+
+4. Training Optimizations:
+   - Model checkpoints saved during training when validation accuracy improved
+   - Data augmentation to improve generalization
+   - Proper train/validation split for reliable model selection
+
+The best model achieved a test accuracy of 99.05%, which finally satisfied the serial killer's demands. All the results are carefully hidden under the loose floorboard in the database and MLflow tracking files.
+
+I pray that no one else should have to suffer such a trying ordeal. But if anyone does end up in that basement, I hope they find my search method that I've hidden away under the loose floorboard. May it help them escape as it helped me.
+
+- A Survivor
